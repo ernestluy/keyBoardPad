@@ -14,6 +14,7 @@
 		76496B5C1A7103B1005C5CAA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 76496B5B1A7103B1005C5CAA /* Images.xcassets */; };
 		76496B5F1A7103B1005C5CAA /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 76496B5D1A7103B1005C5CAA /* LaunchScreen.xib */; };
 		76496B6B1A7103B1005C5CAA /* TestKeyBoardTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 76496B6A1A7103B1005C5CAA /* TestKeyBoardTests.m */; };
+		76496B761A710617005C5CAA /* CommentPad.m in Sources */ = {isa = PBXBuildFile; fileRef = 76496B751A710617005C5CAA /* CommentPad.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		76496B641A7103B1005C5CAA /* TestKeyBoardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestKeyBoardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		76496B691A7103B1005C5CAA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		76496B6A1A7103B1005C5CAA /* TestKeyBoardTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestKeyBoardTests.m; sourceTree = "<group>"; };
+		76496B741A710617005C5CAA /* CommentPad.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommentPad.h; sourceTree = "<group>"; };
+		76496B751A710617005C5CAA /* CommentPad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommentPad.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +92,8 @@
 				76496B5B1A7103B1005C5CAA /* Images.xcassets */,
 				76496B5D1A7103B1005C5CAA /* LaunchScreen.xib */,
 				76496B4E1A7103B1005C5CAA /* Supporting Files */,
+				76496B741A710617005C5CAA /* CommentPad.h */,
+				76496B751A710617005C5CAA /* CommentPad.m */,
 			);
 			path = TestKeyBoard;
 			sourceTree = "<group>";
@@ -222,6 +227,7 @@
 				76496B571A7103B1005C5CAA /* ViewController.m in Sources */,
 				76496B541A7103B1005C5CAA /* AppDelegate.m in Sources */,
 				76496B511A7103B1005C5CAA /* main.m in Sources */,
+				76496B761A710617005C5CAA /* CommentPad.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

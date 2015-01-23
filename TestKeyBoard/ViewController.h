@@ -8,8 +8,11 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController<UITextFieldDelegate>
+{
+    IBOutlet UITextField *textField;
+}
 
-
+-(IBAction)hideAction:(id)sender;
 @end
 
